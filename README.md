@@ -19,11 +19,13 @@
 
 ## Download Options
 [![IzzyOnDroid Download Badge](graphics/IzzyOnDroid.png)](https://apt.izzysoft.de/fdroid/index/apk/com.cylonid.nativealpha)
-[![APK Download Badge](graphics/apk_badge.png)](https://github.com/cylonid/NativeAlphaForAndroid/releases/download/v1.01/NativeAlpha-standard-universal-release-v1.0.apk)
+[![APK Download Badge](graphics/apk_badge.png)](https://github.com/cylonid/NativeAlphaForAndroid/releases/download/v1.01/NativeAlpha-standard-universal-release-v1.01.apk)
 
 ## Latest Changes (v1.01)
 *Hotfix release(v1.01):*
 * Fixed an issue where Web Apps were forcefully displayed in Dark Mode when the app itself was in Dark Mode.
+
+--
 
 * Added option to control Google Safe Browsing usage
 * Added option to ignore SSL errors for single Web Apps (hidden in expert settings)
