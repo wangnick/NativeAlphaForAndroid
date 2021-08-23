@@ -50,6 +50,7 @@ public class WebApp {
     private boolean show_expert_settings;
     private boolean safe_browsing;
     private boolean block_third_party_requests;
+    private double initial_scale_factor;
 
     public WebApp(String url, int id) {
         title = url.replace("http://", "").replace("https://", "").replace("www.", "");
@@ -84,6 +85,7 @@ public class WebApp {
         show_expert_settings = false;
         safe_browsing = true;
         block_third_party_requests = false;
+        initial_scale_factor = 1.0;
 
         initDefaultSettings();
     }
@@ -128,6 +130,7 @@ public class WebApp {
         this.show_expert_settings = other.show_expert_settings;
         this.safe_browsing = other.safe_browsing;
         this.block_third_party_requests = other.block_third_party_requests;
+        this.initial_scale_factor = other.initial_scale_factor;
     }
 
     private void initDefaultSettings() {
@@ -167,6 +170,14 @@ public class WebApp {
 
     public void setBlockThirdPartyRequests(boolean blockThirdPartyRequests) {
         this.block_third_party_requests = blockThirdPartyRequests;
+    }
+
+    public double getInitialScaleFactor() {
+        return initial_scale_factor;
+    }
+
+    public void setInitialScaleFactor(double initialScaleFactor) {
+        this.initial_scale_factor = initialScaleFactor;
     }
 
     public boolean isShowExpertSettings() {

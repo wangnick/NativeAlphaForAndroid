@@ -116,6 +116,7 @@
     <string name="backup">Backup</string>
     <string name="use_google_safe_browsing">Use Google Safe Browsing</string>
     <string name="block_all_third_party_requests">Block all third-party requests</string>
+    <string name="webapp_initial_scale_factor">Initial scale factor</string>
 
 
 </resources>

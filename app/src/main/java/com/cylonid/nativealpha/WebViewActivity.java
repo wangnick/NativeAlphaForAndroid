@@ -119,6 +119,7 @@ public class WebViewActivity extends AppCompatActivity implements EasyPermission
             }
 
             wv.getSettings().setJavaScriptEnabled(webapp.isAllowJs());
+            wv.setInitialScale((int)(getResources().getDisplayMetrics().density*webapp.getInitialScaleFactor()*100));
 
             CookieManager.getInstance().setAcceptCookie(webapp.isAllowCookies());
             CookieManager.getInstance().setAcceptThirdPartyCookies(wv, webapp.isAllowThirdPartyCookies());
